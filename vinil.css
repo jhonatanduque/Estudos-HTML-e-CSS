@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  /*font-family: "Actor", sans-serif;
+  font-family: "Alfa Slab One", cursive;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Lily Script One", cursive;
+  font-family: "Staatliches", cursive;
+  font-family: "VT323", monospace;
+ Color Theme 
+.Planeterra-1-hex { color: #D6CEF2; }
+.Planeterra-2-hex { color: #014034; }
+.Planeterra-3-hex { color: #62D9AD; }
+.Planeterra-4-hex { color: #F2F2F0; }
+.Planeterra-5-hex { color: #F2441D; }
+
+*/
+}
+
+/*cabeçalho*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  background-color: #014034;
+  text-shadow: 0.1em 0.1em 0.2em #d6cef2;
+  border-bottom: solid 0.2rem #015041;
+}
+
+header img {
+  width: 15vw;
+  height: 25vh;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+  color: #f2441d;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30vw;
+  height: 15vh;
+  font-family: "VT323", monospace;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f2441d;
+  display: block;
+}
+
+a:hover {
+  background-color: #62d9ad;
+}
+
+/*PRODUTOS*/
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main div {
+  width: 100%;
+  height: 100vh;
+}
+.news {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 5%;
+}
+
+.albums {
+  width: 100%;
+  height: 50vh;
+}
+
+.artist {
+  text-align: center;
+  width: 22rem;
+  font-family: "IBM Plex Mono", monospace;
+  color: #d6cef2;
+  font-size: 1rem;
+}
+
+.price {
+  text-align: center;
+  width: 22rem;
+  font-family: "Alfa Slab One", cursive;
+  color: #d6cef2;
+  font-size: 1.5rem;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "VT323", monospace;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  color: #62d9ad;
+  height: 20vh;
+}
+
+.partOne {
+  background-color: #014034;
+}
+
+li:hover {
+  background-color: #62d9ad;
+}
+
+.partTwo {
+  background-color: #015041;
+}
+
+.partThre {
+  background-color: #015a4a;
+}
+
+.styles {
+  width: 100%;
+  height: 25vh;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  background-color: #014034;
+}
+
+.buy {
+  width: 40%;
+  height: 20vh;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  background-color: #f2441d;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 20vh;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1rem;
+  background-color: #f2441d;
+}
+.buton:hover {
+  background-color: #f2441d;
+}
+.buton {
+  width: 15vw;
+  height: 10vh;
+  font-family: "Alfa Slab One", cursive;
+  background-color: #62d9ad;
+  margin: 0.5vh;
+}
+
+.created {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1.5vw;
+  background-color: #f2441d;
+  color: #014034;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.5rem;
+}
