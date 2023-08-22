@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1000px) {
+  header {
+    background-size: 200%;
+    justify-content: center;
+  }
+
+  .albunsOne {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .albunsTwo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .primeira {
+    height: auto;
+  }
+  .segunda {
+    height: auto;
+  }
+  .terceira {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titleThre {
+    text-align: center;
+    padding-left: 0rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .titleThre {
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0rem;
+  }
+  .espetaculo {
+    display: none;
+  }
+}
